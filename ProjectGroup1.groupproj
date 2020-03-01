@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{58F505D2-B6DB-4C5F-BD03-D9EA36C2A32F}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="BingoCard.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Roll.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="BingoCard">
+			<MSBuild Projects="BingoCard.dproj"/>
+		</Target>
+		<Target Name="BingoCard:Clean">
+			<MSBuild Targets="Clean" Projects="BingoCard.dproj"/>
+		</Target>
+		<Target Name="BingoCard:Make">
+			<MSBuild Targets="Make" Projects="BingoCard.dproj"/>
+		</Target>
+		<Target Name="Roll">
+			<MSBuild Projects="Roll.dproj"/>
+		</Target>
+		<Target Name="Roll:Clean">
+			<MSBuild Targets="Clean" Projects="Roll.dproj"/>
+		</Target>
+		<Target Name="Roll:Make">
+			<MSBuild Targets="Make" Projects="Roll.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="BingoCard;Roll"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="BingoCard:Clean;Roll:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="BingoCard:Make;Roll:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

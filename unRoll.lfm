@@ -1,0 +1,182 @@
+object Form3: TForm3
+  Left = 368
+  Height = 729
+  Top = 108
+  Width = 1014
+  Caption = '搖號程式'
+  ClientHeight = 729
+  ClientWidth = 1014
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -48
+  Font.Name = '微軟正黑體'
+  Font.Style = [fsBold]
+  KeyPreview = True
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  LCLVersion = '1.4.4.0'
+  WindowState = wsMaximized
+  object Panel2: TPanel
+    Left = 624
+    Height = 729
+    Top = 0
+    Width = 390
+    Align = alRight
+    BevelOuter = bvNone
+    ClientHeight = 729
+    ClientWidth = 390
+    TabOrder = 0
+    object Label3: TLabel
+      Left = 0
+      Height = 64
+      Top = 0
+      Width = 390
+      Align = alTop
+      Alignment = taCenter
+      AutoSize = False
+      Caption = '已 搖 號 碼'
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object lvHistory: TListView
+      Left = 0
+      Height = 665
+      Top = 64
+      Width = 390
+      Align = alClient
+      Color = 12320767
+      Columns = <      
+        item
+          Width = 0
+        end      
+        item
+          Alignment = taCenter
+          Caption = '序'
+          Width = 180
+        end      
+        item
+          Alignment = taCenter
+          Caption = '號碼'
+          Width = 180
+        end>
+      Font.Color = clBlue
+      Font.Height = -80
+      Font.Name = '微軟正黑體'
+      Font.Style = [fsBold]
+      GridLines = True
+      HideSelection = False
+      ParentFont = False
+      ReadOnly = True
+      RowSelect = True
+      ScrollBars = ssAutoVertical
+      TabOrder = 0
+      ViewStyle = vsReport
+    end
+  end
+  object Panel4: TPanel
+    Left = 0
+    Height = 729
+    Top = 0
+    Width = 624
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'Panel4'
+    ClientHeight = 729
+    ClientWidth = 624
+    TabOrder = 1
+    object Panel1: TPanel
+      Left = 0
+      Height = 80
+      Top = 0
+      Width = 624
+      Align = alTop
+      BevelOuter = bvNone
+      ClientHeight = 80
+      ClientWidth = 624
+      Font.Color = clWindowText
+      Font.Height = -53
+      Font.Name = '微軟正黑體'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 10
+        Height = 80
+        Top = 0
+        Width = 222
+        Align = alLeft
+        AutoSize = False
+        BorderSpacing.Left = 10
+        Caption = '號碼範圍'
+        Layout = tlCenter
+        ParentColor = False
+      end
+      object btnShuffle: TSpeedButton
+        Left = 383
+        Height = 75
+        Top = 3
+        Width = 263
+        Caption = '洗牌(F12)'
+        OnClick = btnShuffleClick
+      end
+      object txtNumberRange: TSpinEdit
+        Left = 235
+        Height = 75
+        Top = 3
+        Width = 144
+        MinValue = 1
+        TabOrder = 0
+        Value = 50
+      end
+    end
+    object btnNextNumber: TSpeedButton
+      Left = 5
+      Height = 95
+      Top = 629
+      Width = 614
+      Align = alBottom
+      BorderSpacing.Around = 5
+      Caption = '搖 (空白鍵) 號'
+      Font.Color = clWindowText
+      Font.Height = -80
+      Font.Name = '微軟正黑體'
+      Font.Style = [fsBold]
+      OnClick = btnNextNumberClick
+      ParentFont = False
+    end
+    object Panel3: TPanel
+      Left = 0
+      Height = 544
+      Top = 80
+      Width = 624
+      Align = alClient
+      BevelOuter = bvNone
+      BevelWidth = 5
+      Caption = 'Panel3'
+      ClientHeight = 544
+      ClientWidth = 624
+      TabOrder = 1
+      object lbNextCard: TLabel
+        Left = 5
+        Height = 534
+        Top = 5
+        Width = 614
+        Align = alClient
+        Alignment = taCenter
+        AutoSize = False
+        BorderSpacing.Around = 5
+        Caption = '?'
+        Color = 13553407
+        Font.Color = clRed
+        Font.Height = -533
+        Font.Name = 'Tahoma'
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+      end
+    end
+  end
+end

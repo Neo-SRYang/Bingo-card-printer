@@ -1,0 +1,34 @@
+Hint: * Converting file D:\Delphi\SRYANG\賓果卡 - Lazarus\Roll.dpr *
+Hint: Added defines -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL in custom options
+Hint: Found all unit files
+Hint: * Fixing used units for file D:\Delphi\SRYANG\賓果卡 - Lazarus\Roll.dpr *
+Hint: 
+Hint: *** Converting unit files belonging to project/package ***
+Hint: * Converting file D:\Delphi\SRYANG\賓果卡 - Lazarus\unRoll.pas *
+Hint: Changed encoding from cp950 to UTF-8
+Hint: 
+Hint: *** Fixing used units and Repairing form files ***
+Hint: * Repairing form file D:\Delphi\SRYANG\賓果卡 - Lazarus\unRoll.lfm *
+Hint: Changed Top coord of TLabel from "1" to "0" inside TPanel.
+Hint: Changed Left coord of TLabel from "1" to "0" inside TPanel.
+Hint: Changed Top coord of TPanel from "1" to "0" inside TPanel.
+Hint: Changed Left coord of TPanel from "1" to "0" inside TPanel.
+Hint: Changed Top coord of TListView from "57" to "55" inside TPanel.
+Hint: Changed Left coord of TListView from "0" to "0" inside TPanel.
+Hint: Changed Top coord of TLabel from "0" to "0" inside TPanel.
+Hint: Changed Left coord of TLabel from "0" to "0" inside TPanel.
+Hint: Changed Top coord of TPanel from "1" to "0" inside TPanel.
+Hint: Changed Left coord of TPanel from "1" to "0" inside TPanel.
+Hint: Changed Top coord of TSpinEdit from "12" to "10" inside TPanel.
+Hint: Changed Left coord of TSpinEdit from "155" to "153" inside TPanel.
+Hint: Changed Top coord of TSpeedButton from "12" to "10" inside TPanel.
+Hint: Changed Left coord of TSpeedButton from "246" to "244" inside TPanel.
+Hint: Changed Top coord of TLabel from "12" to "10" inside TPanel.
+Hint: Changed Left coord of TLabel from "15" to "13" inside TPanel.
+Hint: Changed Top coord of TPanel from "1" to "0" inside TPanel.
+Hint: Changed Left coord of TPanel from "1" to "0" inside TPanel.
+Hint: Changed Top coord of TSpeedButton from "1" to "0" inside TPanel.
+Hint: Changed Left coord of TSpeedButton from "1" to "0" inside TPanel.
+Hint: * Fixing used units for file D:\Delphi\SRYANG\賓果卡 - Lazarus\unRoll.pas *
+Hint: Conversion took: 00:00:10
+Hint: Conversion Ready.

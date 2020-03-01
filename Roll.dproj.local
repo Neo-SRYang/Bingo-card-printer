@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/01/28 06:57:56.000.348,=D:\我的文件\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2014/01/28 06:58:39.000.863,D:\我的文件\RAD Studio\Projects\Unit3.pas=D:\Delphi\SRYANG\賓果卡\unRoll.pas</Transaction>
+    <Transaction>2014/01/28 06:58:39.000.863,D:\我的文件\RAD Studio\Projects\Unit3.dfm=D:\Delphi\SRYANG\賓果卡\unRoll.dfm</Transaction>
+    <Transaction>2014/01/28 06:58:55.000.446,D:\我的文件\RAD Studio\Projects\Project3.dproj=D:\Delphi\SRYANG\賓果卡\Roll.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

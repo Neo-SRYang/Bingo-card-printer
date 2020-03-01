@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Roll.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unRoll.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="120"/>
+        <CursorPos X="122" Y="127"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="D:\Lazarus_Win32\fpc\2.6.4\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="18" Y="283"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="unRoll.pas"/>
+        <Caret Line="91" Column="58" TopLine="74"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unRoll.pas"/>
+        <Caret Line="9" Column="60" TopLine="5"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unRoll.pas"/>
+        <Caret Line="25" Column="15" TopLine="12"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
